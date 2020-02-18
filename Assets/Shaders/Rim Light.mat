@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-440641221093075791
+--- !u!114 &-18874534782120792
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Holograma
-  m_Shader: {fileID: -6465566751694194690, guid: 71e7fb33dcb1582428941bcfeea21ab8,
+  m_Name: Rim Light
+  m_Shader: {fileID: -6465566751694194690, guid: 0082a435034ff8c46a700a61f5180e49,
     type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
@@ -33,6 +33,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_A2AFDA81:
+        m_Texture: {fileID: 2800000, guid: f949c20ba7dad744ca2fdb927db40529, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -46,7 +50,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1be0645b5786dfa4aa13c1b34a5fc074, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -62,9 +66,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_1A32CC00: 1
-    - Vector1_93C6A347: 0.55
-    - Vector1_99B93D4F: 2.97
+    - Vector1_6D594CD9: 0.273
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -87,8 +89,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_2B6EE2B4: {r: 0.34433958, g: 1, b: 0.9803379, a: 1}
-    - Color_E33DFBE3: {r: 1, g: 1, b: 1, a: 1}
+    - Color_44E54FFF: {r: 15.999997, g: 0, b: 11.1413555, a: 1}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

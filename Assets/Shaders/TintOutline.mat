@@ -85,7 +85,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_832A33F: {r: 1, g: 0.9324037, b: 0, a: 1}
+    - Color_832A33F: {r: 0.19436085, g: 1, b: 0, a: 1}
     - _Albedo: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
